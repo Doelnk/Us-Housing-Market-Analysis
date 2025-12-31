@@ -8,16 +8,26 @@
 
 **Key Findings:**
 * **The "Post-Pandemic Surge":** The period from 2020–2022 represents the sharpest price increase in recorded history, outpacing the 2008 housing bubble volatility by **15%**.
-* **Regional Resilience:** While coastal markets (NY, CA) experienced deep volatility, emerging markets in the Sunbelt (TX, FL) showed faster recovery rates post-2008.
+* **Regional Resilience:** While coastal markets experienced deep volatility, emerging markets in the Sunbelt (TX, FL) showed faster recovery rates post-2008.
 * **Market Shift:** The standard deviation of pricing in 2023 is significantly higher than in 2010, indicating a structural shift from a "Stable Growth" to a "High Variance" market.
 
 ### 📊 Interactive Dashboard Preview
-*The Power BI dashboard allows users to dynamically filter data by state to isolate regional trends. Click the links below to view high-resolution screenshots:*
+*The Power BI dashboard allows users to dynamically filter data by state to isolate regional trends.*
 
-* **[📈 View 1: National Overview (Unfiltered)](dashboard_national.png)**
-    * *Shows the aggregate average price trend for the entire United States.*
-* **[📉 View 2: State Level Analysis (Filtered by NY)](dashboard_state.png)**
-    * *Demonstrates the interactive drill-down capability, isolating New York's specific volatility and pricing.*
+<table>
+  <tr>
+    <td align="center" width="50%"><b>1. National Overview (Unfiltered)</b></td>
+    <td align="center" width="50%"><b>2. State View (Filtered by MD)</b></td>
+  </tr>
+  <tr>
+    <td><img src="dashboard_national.png" alt="National US Housing Trends" width="100%"></td>
+    <td><img src="dashboard_state.png" alt="Maryland Housing Trends" width="100%"></td>
+  </tr>
+  <tr>
+     <td colspan="2" align="center"><i>Note how the Line Chart trend and the Average Price KPI (bottom right) update instantly upon selecting "MD".</i></td>
+  </tr>
+</table>
+
 ---
 
 ## 💼 Business Context
@@ -42,11 +52,9 @@ The raw data contained **228,000+ records** in a "Wide" format (200+ date column
 *Based on the data trends, I propose the following actions for stakeholders:*
 
 1.  **Investment Strategy:** Prioritize acquisition efforts in "Resilient" Midwest markets. These regions showed the least volatility during the 2008 and 2020 shocks, offering safer long-term hold potential.
-2.  **Risk Mitigation:** Hedge portfolios that are heavily weighted in CA/NY assets. The data shows these markets experience the deepest "troughs" during economic downturns, requiring higher capital reserves.
+2.  **Risk Mitigation:** Hedge portfolios that are heavily weighted in highly volatile coastal assets (like CA or NY). The data shows these markets often experience the deepest "troughs" during economic downturns, requiring higher capital reserves.
 
 ---
-
-
 
 ## ⚠️ Caveats & Data Assumptions
 *Transparent analysis requires acknowledging limitations:*
@@ -63,3 +71,9 @@ The raw data contained **228,000+ records** in a "Wide" format (200+ date column
 * **The "Wide Data" Hurdle:** Relational databases cannot handle dynamic schema changes (e.g., adding a new column every month). I had to write a Python logic to transpose the data structure entirely before ingestion.
 * **Data Integrity (Error 1292):** The raw source data contained mixed types (Text strings in Date columns). I implemented a staging strategy—loading data as strings first, then applying SQL transformations to cast them into strict `DATE` objects for accurate time-series analysis.
 
+---
+
+## 📬 Contact
+**Doel Nkalo**
+*Senior Computer Science Major & Aspiring Data Analyst*
+[LinkedIn Profile](YOUR_LINK_HERE)

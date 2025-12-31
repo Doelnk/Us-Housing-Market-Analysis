@@ -71,9 +71,3 @@ The raw data contained **228,000+ records** in a "Wide" format (200+ date column
 * **The "Wide Data" Hurdle:** Relational databases cannot handle dynamic schema changes (e.g., adding a new column every month). I had to write a Python logic to transpose the data structure entirely before ingestion.
 * **Data Integrity (Error 1292):** The raw source data contained mixed types (Text strings in Date columns). I implemented a staging strategy—loading data as strings first, then applying SQL transformations to cast them into strict `DATE` objects for accurate time-series analysis.
 
----
-
-## 📬 Contact
-**Doel Nkalo**
-*Senior Computer Science Major & Aspiring Data Analyst*
-[LinkedIn Profile](YOUR_LINK_HERE)

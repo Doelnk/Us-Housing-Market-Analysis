@@ -34,6 +34,13 @@ The raw data contained **228,000+ records** in a "Wide" format (200+ date column
 
 ---
 
+## 🧩 Skills Demonstrated
+* **Data Engineering:** ETL Pipelines, Normalization (3NF), Data Cleaning (Pandas).
+* **Database Management:** MySQL Server Administration, Secure File Privileges, Schema Design.
+* **Visualization:** Power BI, DAX Measures, Interactive Dashboarding.
+* **Soft Skills:** Business Strategy, Problem Solving, Technical Documentation.
+---
+
 ## 💡 Recommendations
 *Based on the data trends, I propose the following actions for stakeholders:*
 

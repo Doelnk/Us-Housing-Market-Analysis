@@ -20,7 +20,7 @@
     <td align="center" width="50%"><b>2. State View (Filtered by MD)</b></td>
   </tr>
   <tr>
-    <td><img src="dashboard_national.png" alt="National US Housing Trends" width="100%"></td>
+    <td><img src="dashboard_national1.png" alt="National US Housing Trends" width="100%"></td>
     <td><img src="dashboard_state.png" alt="Maryland Housing Trends" width="100%"></td>
   </tr>
   <tr>

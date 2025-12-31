@@ -4,16 +4,20 @@
 ![Tools](https://img.shields.io/badge/Tools-Python%20|%20MySQL%20|%20PowerBI-blue)
 
 ## 📋 Executive Summary (The "So What")
-**Objective:** Analyze 24 years of US housing market data to identify volatility trends and actionable investment vectors for real estate stakeholders.
+**Objective:** Analyze 24 years of US housing market data to build a scalable ETL pipeline and visualize volatility trends for real estate investment stakeholders.
 
 **Key Findings:**
 * **The "Post-Pandemic Surge":** The period from 2020–2022 represents the sharpest price increase in recorded history, outpacing the 2008 housing bubble volatility by **15%**.
 * **Regional Resilience:** While coastal markets (NY, CA) experienced deep volatility, emerging markets in the Sunbelt (TX, FL) showed faster recovery rates post-2008.
 * **Market Shift:** The standard deviation of pricing in 2023 is significantly higher than in 2010, indicating a structural shift from a "Stable Growth" to a "High Variance" market.
 
-![Dashboard Preview](dashboard.png)
-*(Snapshot of the Power BI Interactive Dashboard)*
+### 📊 Interactive Dashboard Preview
+*The Power BI dashboard allows users to dynamically filter data by state to isolate regional trends. Click the links below to view high-resolution screenshots:*
 
+* **[📈 View 1: National Overview (Unfiltered)](dashboard_national.png)**
+    * *Shows the aggregate average price trend for the entire United States.*
+* **[📉 View 2: State Level Analysis (Filtered by NY)](dashboard_state.png)**
+    * *Demonstrates the interactive drill-down capability, isolating New York's specific volatility and pricing.*
 ---
 
 ## 💼 Business Context
@@ -34,13 +38,6 @@ The raw data contained **228,000+ records** in a "Wide" format (200+ date column
 
 ---
 
-## 🧩 Skills Demonstrated
-* **Data Engineering:** ETL Pipelines, Normalization (3NF), Data Cleaning (Pandas).
-* **Database Management:** MySQL Server Administration, Secure File Privileges, Schema Design.
-* **Visualization:** Power BI, DAX Measures, Interactive Dashboarding.
-* **Soft Skills:** Business Strategy, Problem Solving, Technical Documentation.
----
-
 ## 💡 Recommendations
 *Based on the data trends, I propose the following actions for stakeholders:*
 
@@ -48,6 +45,8 @@ The raw data contained **228,000+ records** in a "Wide" format (200+ date column
 2.  **Risk Mitigation:** Hedge portfolios that are heavily weighted in CA/NY assets. The data shows these markets experience the deepest "troughs" during economic downturns, requiring higher capital reserves.
 
 ---
+
+
 
 ## ⚠️ Caveats & Data Assumptions
 *Transparent analysis requires acknowledging limitations:*
